@@ -20,7 +20,7 @@
     },
     {
       "id": 4,
-      "texto": "Vertraue auf den HERRN mit ganzem Herzen und verlaß dich nicht auf eigene Klugheit; denke an ihn auf allen deinen Wegen, so wird er dir die Pfade ebnen.",
+      "texto": "Vertraue auf den HERRN mit ganzem Herzen und verlaß dich nicht auf eigene Klugheit;\n\ndenke an ihn auf allen deinen Wegen, so wird er dir die Pfade ebnen.",
       "referencia": "Sprüche 3,5–6",
       "tema": "Vertrauen"
     },
@@ -32,93 +32,93 @@
     },
     {
       "id": 6,
-      "texto": "Não carregues sozinho aquilo que podes entregar em oração. Deus cuida também daquilo que pesa em silêncio.",
-      "referencia": "1 Pedro 5:7",
-      "tema": "Oração"
+      "texto": "Alle eure Sorge werft auf ihn, denn er sorgt für euch!",
+      "referencia": "1 Petrus 5,7",
+      "tema": "Gebet"
     },
     {
       "id": 7,
-      "texto": "Há graça suficiente para hoje. Não precisas viver amanhã antes que ele chegue.",
-      "referencia": "Mateus 6:34",
-      "tema": "Graça"
+      "texto": "Macht euch also keine Sorgen um den morgenden Tag! Denn der morgende Tag wird seine eigenen Sorgen haben; jeder Tag hat an seiner eigenen Mühsal genug.",
+      "referencia": "Matthäus 6,34",
+      "tema": "Hoffnung"
     },
     {
       "id": 8,
-      "texto": "O amor de Deus não é uma recompensa para quem merece; é graça oferecida a quem se aproxima.",
-      "referencia": "Efésios 2:8–9",
-      "tema": "Graça"
+      "texto": "Denn durch die Gnade seid ihr gerettet worden auf Grund des Glaubens, und zwar nicht aus euch – nein, Gottes Geschenk ist es –,\n\nnicht aufgrund von Werken, damit niemand sich rühme. ",
+      "referencia": "Epheser 2,8–9",
+      "tema": "Gnade"
     },
     {
       "id": 9,
-      "texto": "Quando a ansiedade disser que estás sozinho, lembra-te: a presença de Deus não depende do que sentes.",
-      "referencia": "Hebreus 13:5",
-      "tema": "Presença"
+      "texto": "Euer Sinn sei frei von Geldgier; begnügt euch mit dem, was euch gerade zu Gebote steht, denn er selbst hat gesagt: »Ich will dir nimmermehr meine Hilfe versagen und dich nicht verlassen«;\n\ndaher dürfen wir auch zuversichtlich sagen: »Der Herr ist meine Hilfe, ich will mich nicht fürchten: was können Menschen mir antun?«",
+      "referencia": "Hebräer 13,5-6",
+      "tema": "Vertrauen"
     },
     {
       "id": 10,
-      "texto": "A paz de Cristo não é a ausência de tempestades, mas a certeza de que Ele está no barco.",
-      "referencia": "João 14:27",
-      "tema": "Paz"
+      "texto": "Frieden hinterlasse ich euch, meinen Frieden gebe ich euch; nicht so, wie die Welt gibt, gebe ich euch. Euer Herz erschrecke nicht und verzage nicht!",
+      "referencia": "Johannes 14,27",
+      "tema": "Frieden"
     },
     {
       "id": 11,
-      "texto": "Perdoar não apaga o passado, mas impede que ele continue governando o coração.",
-      "referencia": "Colossenses 3:13",
-      "tema": "Perdão"
+      "texto": "ertragt einander und vergebt euch gegenseitig, wenn jemand dem andern etwas vorzuwerfen hat; wie der Herr euch vergeben hat, so tut auch ihr es.",
+      "referencia": "Kolosser 3,13",
+      "tema": "Vergebung"
     },
     {
       "id": 12,
-      "texto": "A fé cresce quando escolhemos obedecer mesmo antes de enxergar todas as respostas.",
-      "referencia": "Hebreus 11:1",
-      "tema": "Fé"
+      "texto": "Es ist aber der Glaube ein zuversichtliches Vertrauen auf das, was man hofft, ein festes Überzeugtsein von Dingen, die man (mit Augen) nicht sieht.",
+      "referencia": "Hebräer 11,1",
+      "tema": "Glaube"
     },
     {
       "id": 13,
-      "texto": "Cristo não chama os perfeitos; chama os que estão dispostos a segui-lo.",
-      "referencia": "Marcos 2:17",
-      "tema": "Chamado"
+      "texto": "Als Jesus das hörte, sagte er zu ihnen: »Die Gesunden haben keinen Arzt nötig, wohl aber die Kranken. Ich bin nicht gekommen, Gerechte zu berufen, sondern Sünder.«",
+      "referencia": "Markus 2,17",
+      "tema": "Gnade"
     },
     {
       "id": 14,
-      "texto": "Em dias de fraqueza, não confundas cansaço com fracasso. A força de Deus também se manifesta quando reconhecemos nossa necessidade.",
-      "referencia": "2 Coríntios 12:9",
-      "tema": "Força"
+      "texto": "Traget einer des andern Lasten, so werdet ihr dadurch das Gesetz Christi erfüllen.",
+      "referencia": "Galater 6,2",
+      "tema": "Liebe"
     },
     {
       "id": 15,
-      "texto": "A verdadeira riqueza não está no que acumulamos, mas naquilo que permanece diante de Deus.",
-      "referencia": "Mateus 6:19–21",
-      "tema": "Sabedoria"
+      "texto": "Seid aber Täter des Wortes und nicht bloß Hörer, sonst betrügt ihr euch selbst. ",
+      "referencia": "Jakobus 1,22",
+      "tema": "Handeln"
     },
     {
       "id": 16,
-      "texto": "A oração não muda apenas circunstâncias; muitas vezes, é nela que Deus transforma primeiro o coração de quem ora.",
-      "referencia": "Filipenses 4:6–7",
-      "tema": "Oração"
+      "texto": "Denn auch Christus ist einmal um der Sünden willen gestorben, als Gerechter für Ungerechte, um uns zu Gott zu führen, er, der am Fleisch zwar getötet worden ist, aber zum Leben erweckt am Geist.",
+      "referencia": "1 Petrus 3,18",
+      "tema": "Gnade"
     },
     {
       "id": 17,
-      "texto": "Sê paciente com o processo. Deus trabalha também nas partes da vida que ainda não consegues compreender.",
-      "referencia": "Eclesiastes 3:11",
-      "tema": "Tempo"
+      "texto": "Alles hat Gott vortrefflich eingerichtet zu seiner Zeit, ja auch die Ewigkeit hat er ihnen ins Herz gelegt, nur daß der Mensch das Tun Gottes von Anfang bis zu Ende nicht zu durchschauen vermag.",
+      "referencia": "Prediger 3,11",
+      "tema": "Geduld"
     },
     {
       "id": 18,
-      "texto": "Jesus é o caminho quando não sabes para onde ir, a verdade quando tudo parece confuso e a vida quando a esperança parece distante.",
-      "referencia": "João 14:6",
-      "tema": "Cristo"
+      "texto": "Jesus antwortete ihm: »Ich bin der Weg und die Wahrheit und das Leben; niemand kommt zum Vater außer durch mich.",
+      "referencia": "Johannes 14,6",
+      "tema": "Christus"
     },
     {
       "id": 19,
-      "texto": "A misericórdia de Deus não se esgota com o dia que passou. Há novas misericórdias pela manhã.",
-      "referencia": "Lamentações 3:22–23",
-      "tema": "Misericórdia"
+      "texto": "Die Gnadenerweisungen des HERRN sind noch nicht erschöpft, sein Erbarmen ist noch nicht zu Ende;\n\nalle Morgen sind sie neu, groß ist deine Treue.\n\n»Der HERR ist mein Teil!« bekennt meine Seele; drum will ich auf ihn hoffen.",
+      "referencia": "Klagelieder 3,22–23",
+      "tema": "Gnade"
     },
     {
       "id": 20,
-      "texto": "Que hoje a tua vida seja uma pequena resposta ao amor que Deus já te mostrou.",
-      "referencia": "1 João 4:19",
-      "tema": "Amor"
+      "texto": "Wir dagegen lieben, weil er uns zuerst geliebt hat.",
+      "referencia": "1 Johannes 4,19",
+      "tema": "Liebe"
     }
   ]
 }
