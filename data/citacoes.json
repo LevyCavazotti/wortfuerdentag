@@ -1,0 +1,124 @@
+{
+  "citacoes": [
+    {
+      "id": 1,
+      "texto": "Não temas o caminho que está diante de ti. Deus não prometeu ausência de lutas, mas prometeu presença.",
+      "referencia": "Isaías 41:10",
+      "tema": "Fé"
+    },
+    {
+      "id": 2,
+      "texto": "Quando o coração estiver cansado, volta-te para Cristo. Nele há descanso para a alma.",
+      "referencia": "Mateus 11:28",
+      "tema": "Descanso"
+    },
+    {
+      "id": 3,
+      "texto": "A esperança cristã não depende das circunstâncias; ela repousa na fidelidade de Deus.",
+      "referencia": "Romanos 15:13",
+      "tema": "Esperança"
+    },
+    {
+      "id": 4,
+      "texto": "Mesmo quando não compreendes o caminho, continua confiando naquele que conhece o fim desde o princípio.",
+      "referencia": "Provérbios 3:5–6",
+      "tema": "Confiança"
+    },
+    {
+      "id": 5,
+      "texto": "A Palavra de Deus ilumina passos que hoje parecem pequenos, mas que amanhã revelarão um caminho inteiro.",
+      "referencia": "Salmos 119:105",
+      "tema": "Palavra"
+    },
+    {
+      "id": 6,
+      "texto": "Não carregues sozinho aquilo que podes entregar em oração. Deus cuida também daquilo que pesa em silêncio.",
+      "referencia": "1 Pedro 5:7",
+      "tema": "Oração"
+    },
+    {
+      "id": 7,
+      "texto": "Há graça suficiente para hoje. Não precisas viver amanhã antes que ele chegue.",
+      "referencia": "Mateus 6:34",
+      "tema": "Graça"
+    },
+    {
+      "id": 8,
+      "texto": "O amor de Deus não é uma recompensa para quem merece; é graça oferecida a quem se aproxima.",
+      "referencia": "Efésios 2:8–9",
+      "tema": "Graça"
+    },
+    {
+      "id": 9,
+      "texto": "Quando a ansiedade disser que estás sozinho, lembra-te: a presença de Deus não depende do que sentes.",
+      "referencia": "Hebreus 13:5",
+      "tema": "Presença"
+    },
+    {
+      "id": 10,
+      "texto": "A paz de Cristo não é a ausência de tempestades, mas a certeza de que Ele está no barco.",
+      "referencia": "João 14:27",
+      "tema": "Paz"
+    },
+    {
+      "id": 11,
+      "texto": "Perdoar não apaga o passado, mas impede que ele continue governando o coração.",
+      "referencia": "Colossenses 3:13",
+      "tema": "Perdão"
+    },
+    {
+      "id": 12,
+      "texto": "A fé cresce quando escolhemos obedecer mesmo antes de enxergar todas as respostas.",
+      "referencia": "Hebreus 11:1",
+      "tema": "Fé"
+    },
+    {
+      "id": 13,
+      "texto": "Cristo não chama os perfeitos; chama os que estão dispostos a segui-lo.",
+      "referencia": "Marcos 2:17",
+      "tema": "Chamado"
+    },
+    {
+      "id": 14,
+      "texto": "Em dias de fraqueza, não confundas cansaço com fracasso. A força de Deus também se manifesta quando reconhecemos nossa necessidade.",
+      "referencia": "2 Coríntios 12:9",
+      "tema": "Força"
+    },
+    {
+      "id": 15,
+      "texto": "A verdadeira riqueza não está no que acumulamos, mas naquilo que permanece diante de Deus.",
+      "referencia": "Mateus 6:19–21",
+      "tema": "Sabedoria"
+    },
+    {
+      "id": 16,
+      "texto": "A oração não muda apenas circunstâncias; muitas vezes, é nela que Deus transforma primeiro o coração de quem ora.",
+      "referencia": "Filipenses 4:6–7",
+      "tema": "Oração"
+    },
+    {
+      "id": 17,
+      "texto": "Sê paciente com o processo. Deus trabalha também nas partes da vida que ainda não consegues compreender.",
+      "referencia": "Eclesiastes 3:11",
+      "tema": "Tempo"
+    },
+    {
+      "id": 18,
+      "texto": "Jesus é o caminho quando não sabes para onde ir, a verdade quando tudo parece confuso e a vida quando a esperança parece distante.",
+      "referencia": "João 14:6",
+      "tema": "Cristo"
+    },
+    {
+      "id": 19,
+      "texto": "A misericórdia de Deus não se esgota com o dia que passou. Há novas misericórdias pela manhã.",
+      "referencia": "Lamentações 3:22–23",
+      "tema": "Misericórdia"
+    },
+    {
+      "id": 20,
+      "texto": "Que hoje a tua vida seja uma pequena resposta ao amor que Deus já te mostrou.",
+      "referencia": "1 João 4:19",
+      "tema": "Amor"
+    }
+  ]
+}
