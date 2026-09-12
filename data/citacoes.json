@@ -16,7 +16,7 @@
       "id": 3,
       "texto": "Der Gott aber, der unsere Hoffnung ist, erfülle euch mit aller Freude und mit Frieden auf dem Grunde des Glaubens, damit ihr immer reicher an Hoffnung werdet durch die Kraft des heiligen Geistes!",
       "referencia": "Römer 15,13",
-      "tema": "Freude & Hoffnung"
+      "tema": "Hoffnung"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "id": 6,
       "texto": "Alle eure Sorge werft auf ihn, denn er sorgt für euch!",
       "referencia": "1 Petrus 5,7",
-      "tema": "Gebet"
+      "tema": "Göttliche Begleitung"
     },
     {
       "id": 7,
@@ -116,6 +116,42 @@
     },
     {
       "id": 20,
+      "texto": "Wir dagegen lieben, weil er uns zuerst geliebt hat.",
+      "referencia": "1 Johannes 4,19",
+      "tema": "Liebe"
+    },
+    {
+      "id": 21,
+      "texto": "[...] Das Gute haben wir von Gott hingenommen und sollten das Schlimme nicht auch hinnehmen?",
+      "referencia": "Hiob 2,10",
+      "tema": "Geduld"
+    },
+    {
+      "id": 22,
+      "texto": "[...] Wenn Gott für uns ist, wer kann dann gegen uns sein?",
+      "referencia": "Römer 8,31",
+      "tema": "Vertrauen"
+    },
+    {
+      "id": 23,
+      "texto": "[...] Und wisset wohl: Ich bin bei euch alle Tage bis ans Ende der Weltzeit!",
+      "referencia": "Matthäus 28,20",
+      "tema": "Göttliche Begleitung"
+    },
+    {
+      "id": 24,
+      "texto": "Wir dagegen lieben, weil er uns zuerst geliebt hat.",
+      "referencia": "1 Johannes 4,19",
+      "tema": "Liebe"
+    },
+    {
+      "id": 25,
+      "texto": "Wir dagegen lieben, weil er uns zuerst geliebt hat.",
+      "referencia": "1 Johannes 4,19",
+      "tema": "Liebe"
+    },
+    {
+      "id": 26,
       "texto": "Wir dagegen lieben, weil er uns zuerst geliebt hat.",
       "referencia": "1 Johannes 4,19",
       "tema": "Liebe"
