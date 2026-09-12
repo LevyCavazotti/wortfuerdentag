@@ -44,7 +44,7 @@
     },
     {
       "id": 8,
-      "texto": "Denn durch die Gnade seid ihr gerettet worden auf Grund des Glaubens, und zwar nicht aus euch – nein, Gottes Geschenk ist es –,\n\nnicht aufgrund von Werken, damit niemand sich rühme. ",
+      "texto": "Denn durch die Gnade seid ihr gerettet worden auf Grund des Glaubens, und zwar nicht aus euch – nein, Gottes Geschenk ist es –,\n\nnicht aufgrund von Werken, damit niemand sich rühme.",
       "referencia": "Epheser 2,8–9",
       "tema": "Gnade"
     },
@@ -86,7 +86,7 @@
     },
     {
       "id": 15,
-      "texto": "Seid aber Täter des Wortes und nicht bloß Hörer, sonst betrügt ihr euch selbst. ",
+      "texto": "Seid aber Täter des Wortes und nicht bloß Hörer, sonst betrügt ihr euch selbst.",
       "referencia": "Jakobus 1,22",
       "tema": "Handeln"
     },
@@ -140,7 +140,7 @@
     },
     {
       "id": 24,
-      "texto": "Für die Gerechten ist es eine Freude, wenn Recht geschafft wird, aber für die Übeltäter ein Entsetzen. ",
+      "texto": "Für die Gerechten ist es eine Freude, wenn Recht geschafft wird, aber für die Übeltäter ein Entsetzen.",
       "referencia": "Sprüche 21,15",
       "tema": "Freude"
     },
@@ -155,6 +155,12 @@
       "texto": "[...] Wahrlich ich sage euch: Alles, was ihr einem von diesen meinen geringsten Brüdern getan habt, das habt ihr mir getan.",
       "referencia": "Matthäus 25,40",
       "tema": "Liebe"
+    },
+    {
+      "id": 27,
+      "texto": "Wie soll ich dem HERRN vergelten alles, was er mir Gutes getan?\n\nDen Becher des Heils will ich erheben und den Namen des HERRN anrufen;",
+      "referencia": "Psalm 116,12-13",
+      "tema": "Handeln"
     }
   ]
 }
