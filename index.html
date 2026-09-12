@@ -502,10 +502,6 @@ footer{
       Heute
     </a>
 
-    <a href="arquivo.html">
-      Archiv
-    </a>
-
   </nav>
 
 </header>
@@ -587,44 +583,209 @@ footer{
 
 <script>
 
-
 fetch("data/citacoes.json")
 
-.then(response => response.json())
+.then(response => {
+
+  if(!response.ok){
+    throw new Error("Daten konnten nicht geladen werden.");
+  }
+
+  return response.json();
+
+})
 
 .then(db => {
 
-
   const items = db.citacoes;
 
-
-  const start =
-    new Date(2026,0,1);
-
-
-  const now =
-    new Date();
+  if(!Array.isArray(items) || items.length === 0){
+    throw new Error("Keine Bibelverse vorhanden.");
+  }
 
 
-  const today =
-    now < start
-      ? start
-      : now;
+  /*
+  ==========================================
+  ZEITZONE DES BENUTZERS
+  ==========================================
+
+  Der Browser kennt die lokale Zeitzone
+  des Benutzers.
+
+  Beispiele:
+
+  Europe/Berlin
+  America/Sao_Paulo
+  America/New_York
+  Asia/Tokyo
+
+  Dadurch bekommt jeder Benutzer
+  seinen eigenen lokalen Kalendertag.
+  */
+
+  const userTimeZone =
+    Intl.DateTimeFormat().resolvedOptions().timeZone;
 
 
 
   /*
-    Jedes Jahr erhält eine eigene
-    zufällige Reihenfolge.
+  ==========================================
+  AKTUELLES LOKALES DATUM
+  ==========================================
 
-    Die Reihenfolge bleibt während
-    des gesamten Jahres gleich.
+  Wir holen Jahr, Monat und Tag direkt
+  aus der lokalen Zeitzone.
+
+  Dadurch gibt es keine Probleme mit:
+
+  - UTC
+  - Mitternacht
+  - Sommerzeit
+  - Winterzeit
+  - 23:00 / 00:00 Übergängen
+  */
+
+  const dateFormatter =
+    new Intl.DateTimeFormat(
+      "en-CA",
+      {
+        timeZone: userTimeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }
+    );
+
+
+  const localDate =
+    dateFormatter.format(
+      new Date()
+    );
+
+
+  /*
+  localDate sieht beispielsweise so aus:
+
+  2026-09-12
   */
 
 
+  const [
+    year,
+    month,
+    day
+  ] =
+  localDate
+    .split("-")
+    .map(Number);
+
+
+
+  /*
+  ==========================================
+  STARTDATUM
+  ==========================================
+
+  Der erste Tag der Versicle-Sequenz.
+
+  WICHTIG:
+
+  Wir verwenden hier nur Kalenderdaten,
+  keine Uhrzeit.
+  */
+
+  const startYear = 2026;
+  const startMonth = 1;
+  const startDay = 1;
+
+
+
+  /*
+  ==========================================
+  KALENDERTAGE BERECHNEN
+  ==========================================
+
+  Wir verwenden UTC NUR als mathematische
+  Darstellung eines reinen Kalenderdatums.
+
+  Dadurch ist jeder Tag exakt 24 Stunden
+  lang und Sommer-/Winterzeit kann die
+  Berechnung nicht beeinflussen.
+
+  Der Benutzer bleibt trotzdem in seiner
+  eigenen lokalen Zeitzone.
+  */
+
+  function daysFromCivilDate(
+    y,
+    m,
+    d
+  ){
+
+    return Math.floor(
+      Date.UTC(
+        y,
+        m - 1,
+        d
+      ) / 86400000
+    );
+
+  }
+
+
+
+  const startDayNumber =
+    daysFromCivilDate(
+      startYear,
+      startMonth,
+      startDay
+    );
+
+
+  const todayDayNumber =
+    daysFromCivilDate(
+      year,
+      month,
+      day
+    );
+
+
+  /*
+  ==========================================
+  TAGE SEIT START
+  ==========================================
+  */
+
+  let daysSinceStart =
+    todayDayNumber -
+    startDayNumber;
+
+
+  /*
+  Falls jemand die Website vor dem
+  Startdatum besucht, verwenden wir
+  den ersten Vers.
+  */
+
+  if(daysSinceStart < 0){
+    daysSinceStart = 0;
+  }
+
+
+
+  /*
+  ==========================================
+  SEEDED RANDOM
+  ==========================================
+
+  Alle Benutzer erhalten dieselbe
+  Reihenfolge für denselben Zyklus.
+  */
+
   function seedRandom(seed){
 
-    let x = seed >>> 0;
+    let x =
+      seed >>> 0;
 
     return function(){
 
@@ -654,13 +815,34 @@ fetch("data/citacoes.json")
 
 
 
-  function shuffledForYear(year){
+  /*
+  ==========================================
+  NEUE ZUFÄLLIGE REIHENFOLGE
+  ==========================================
 
-    const arr = [...items];
+  Jeder komplette Durchlauf erhält
+  eine neue, aber reproduzierbare
+  Reihenfolge.
+  */
+
+  function shuffledForCycle(cycle){
+
+    const arr =
+      [...items];
+
+
+    const seed =
+      734287 +
+      (cycle * 1000003);
+
 
     const random =
-      seedRandom(year);
+      seedRandom(seed);
 
+
+    /*
+    Fisher-Yates Shuffle
+    */
 
     for(
       let i = arr.length - 1;
@@ -692,82 +874,135 @@ fetch("data/citacoes.json")
 
 
 
-  const order =
-    shuffledForYear(
-      today.getFullYear()
+  /*
+  ==========================================
+  ZYKLUS
+  ==========================================
+
+  Beispiel mit 15 Versen:
+
+  Tag 0  → Zyklus 0 / Position 0
+  Tag 1  → Zyklus 0 / Position 1
+  ...
+  Tag 14 → Zyklus 0 / Position 14
+
+  Tag 15 → Zyklus 1 / Position 0
+  Tag 16 → Zyklus 1 / Position 1
+
+  usw.
+  */
+
+
+  const cycle =
+    Math.floor(
+      daysSinceStart /
+      items.length
     );
 
 
-  const dayOfYear =
-    Math.floor(
-      (
-        today -
-        new Date(
-          today.getFullYear(),
-          0,
-          1
-        )
-      ) / 86400000
+  const positionInCycle =
+    daysSinceStart %
+    items.length;
+
+
+
+  /*
+  ==========================================
+  AKTUELLE REIHENFOLGE
+  ==========================================
+  */
+
+  const order =
+    shuffledForCycle(
+      cycle
     );
 
 
   const item =
     order[
-      dayOfYear % order.length
+      positionInCycle
     ];
 
+
+
+  /*
+  ==========================================
+  DATUM ANZEIGEN
+  ==========================================
+  */
+
+  const displayFormatter =
+    new Intl.DateTimeFormat(
+      "de-DE",
+      {
+        timeZone: userTimeZone,
+        day: "2-digit",
+        month: "long",
+        year: "numeric"
+      }
+    );
 
 
   document.getElementById(
     "date"
   ).textContent =
-
-    today.toLocaleDateString(
-      "de-DE",
-      {
-        day:"2-digit",
-        month:"long",
-        year:"numeric"
-      }
+    displayFormatter.format(
+      new Date()
     );
 
 
 
+  /*
+  ==========================================
+  BIBELVERS
+  ==========================================
+  */
+
   document.getElementById(
     "quote"
   ).textContent =
-
     "„" +
     item.texto +
     "“";
 
 
 
+  /*
+  ==========================================
+  REFERENZ
+  ==========================================
+  */
+
   document.getElementById(
     "reference"
   ).textContent =
-
     "— " +
     item.referencia;
 
 
 
+  /*
+  ==========================================
+  THEMA
+  ==========================================
+  */
+
   document.getElementById(
     "theme"
   ).textContent =
-
     item.tema;
 
 
 
   /*
-    TEILEN
+  ==========================================
+  TEILEN
+  ==========================================
   */
 
   document.getElementById(
     "share"
   ).onclick = async () => {
-
 
     const text =
       `„${item.texto}“ — ${item.referencia}`;
@@ -775,7 +1010,6 @@ fetch("data/citacoes.json")
 
     const url =
       location.href;
-
 
 
     if(navigator.share){
@@ -798,7 +1032,6 @@ fetch("data/citacoes.json")
       catch(e){}
 
     }
-
 
     else{
 
@@ -827,23 +1060,34 @@ fetch("data/citacoes.json")
 
   };
 
-
 })
 
 
-.catch(() => {
+.catch(error => {
+
+  console.error(error);
+
 
   document.getElementById(
     "quote"
   ).textContent =
-
     "Das Wort des Tages konnte nicht geladen werden.";
+
+
+  document.getElementById(
+    "reference"
+  ).textContent = "";
+
+
+  document.getElementById(
+    "theme"
+  ).textContent = "";
 
 });
 
 </script>
 
-
+  
 </body>
 
 </html>
