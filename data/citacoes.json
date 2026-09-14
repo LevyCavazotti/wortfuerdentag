@@ -104,7 +104,7 @@
     },
     {
       "id": 18,
-      "texto": "Jesus antwortete ihm: »Ich bin der Weg und die Wahrheit und das Leben; niemand kommt zum Vater außer durch mich.",
+      "texto": "Jesus antwortete ihm: Ich bin der Weg und die Wahrheit und das Leben; niemand kommt zum Vater außer durch mich.",
       "referencia": "Johannes 14,6",
       "tema": "Christus"
     },
@@ -189,7 +189,7 @@
     {
       "id": 32,
       "texto": "alles vermag ich in ihm, der mich stark macht.",
-      "referencia": "Philipper 3,16",
+      "referencia": "Philipper 4,13",
       "tema": "Kraft"
     },
     {
@@ -308,7 +308,7 @@
     },
     {
       "id": 52,
-      "texto": "Der HERR behütet dich vor allem Übel, er behütet deine Seele;/n/nder HERR behütet deinen Ausgang und Eingang von nun an bis in Ewigkeit.",
+      "texto": "Der HERR behütet dich vor allem Übel, er behütet deine Seele;\nder HERR behütet deinen Ausgang und Eingang von nun an bis in Ewigkeit.",
       "referencia": "Psalm 121,7-8",
       "tema": "Hoffnung"
     },
@@ -392,15 +392,15 @@
     },
     {
       "id": 66,
-      "texto": "Wirf auf den HERRN deine Bürde: er wird dich aufrecht erhalten; er läßt den Gerechten nicht ewig wanken.",
-      "referencia": "Psalm 55,23",
-      "tema": "Hoffnung"
+      "texto": "Es hat euch (bisher) noch keine andere als menschliche Versuchung betroffen; und Gott ist treu: er wird nicht zulassen, daß ihr über euer Vermögen hinaus versucht werdet, sondern wird zugleich mit der Versuchung auch einen solchen Ausgang schaffen, daß ihr sie bestehen könnt.",
+      "referencia": "1 Korinther 10,13",
+      "tema": "Kraft"
     },
     {
       "id": 67,
-      "texto": "Wirf auf den HERRN deine Bürde: er wird dich aufrecht erhalten; er läßt den Gerechten nicht ewig wanken.",
-      "referencia": "Psalm 55,23",
-      "tema": "Hoffnung"
+      "texto": "Wenn ihr mich liebt, so werdet ihr meine Gebote halten;",
+      "referencia": "Johannes 14,15",
+      "tema": "Handeln"
     }
   ]
 }
