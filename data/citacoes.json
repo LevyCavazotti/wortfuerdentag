@@ -266,39 +266,39 @@
     },
     {
       "id": 45,
-      "texto": "Seid fröhlich in der Hoffnung, geduldig im Leiden, beharrlich im Gebet!\n\nFür die Bedürfnisse der Heiligen beweist Anteilnahme; übt die Gastfreundschaft willig.\n\nSegnet, die euch verfolgen, segnet sie und flucht ihnen nicht!\n\nFreuet euch mit den Fröhlichen und weinet mit den Weinenden!",
-      "referencia": "Römer 12,12-15",
+      "texto": "Seid fröhlich in der Hoffnung, geduldig im Leiden, beharrlich im Gebet!",
+      "referencia": "Römer 12,12",
       "tema": "Geduld"
     },
     {
       "id": 46,
-      "texto": "alles vermag ich in ihm, der mich stark macht.",
-      "referencia": "Philipper 3,16",
-      "tema": "Kraft"
+      "texto": "Für die Bedürfnisse der Heiligen beweist Anteilnahme; übt die Gastfreundschaft willig.\n\nSegnet, die euch verfolgen, segnet sie und flucht ihnen nicht!\n\nFreuet euch mit den Fröhlichen und weinet mit den Weinenden!",
+      "referencia": "Römer 12,13-15",
+      "tema": "Liebe"
     },
     {
       "id": 47,
-      "texto": "alles vermag ich in ihm, der mich stark macht.",
-      "referencia": "Philipper 3,16",
-      "tema": "Kraft"
+      "texto": "Laß dich nicht vom Bösen überwinden, sondern überwinde das Böse durch das Gute!",
+      "referencia": "Römer 12,21",
+      "tema": "Göttliche Begleitung"
     },
     {
       "id": 48,
-      "texto": "alles vermag ich in ihm, der mich stark macht.",
-      "referencia": "Philipper 3,16",
+      "texto": "Der HERR ist mein Licht und mein Heil: vor wem sollt’ ich mich fürchten? Der HERR ist meines Lebens Schutzwehr: vor wem sollte mir bangen?",
+      "referencia": "Psalm 27,1",
       "tema": "Kraft"
     },
     {
       "id": 49,
-      "texto": "alles vermag ich in ihm, der mich stark macht.",
-      "referencia": "Philipper 3,16",
-      "tema": "Kraft"
+      "texto": "Gott ist uns Zuflucht und Stärke, als Hilfe in Nöten wohlbewährt befunden.\n\nDarum bangen wir nicht, wenngleich die Erde vergeht, wenn Berge mitten im Meer versinken;",
+      "referencia": "Psalm 46,2-3",
+      "tema": "Frieden"
     },
     {
       "id": 50,
-      "texto": "alles vermag ich in ihm, der mich stark macht.",
-      "referencia": "Philipper 3,16",
-      "tema": "Kraft"
+      "texto": "Wirf auf den HERRN deine Bürde: er wird dich aufrecht erhalten; er läßt den Gerechten nicht ewig wanken.",
+      "referencia": "Psalm 55,23",
+      "tema": "Hoffnung"
     }
   ]
 }
