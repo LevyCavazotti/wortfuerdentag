@@ -248,8 +248,8 @@
     },
     {
       "id": 42,
-      "texto": "Demütigt euch also unter die gewaltige Hand Gottes, damit er euch zu seiner Zeit erhöhe!\n\nAlle eure Sorge werft auf ihn, denn er sorgt für euch!",
-      "referencia": "1 Petrus 5,6-7",
+      "texto": "Demütigt euch also unter die gewaltige Hand Gottes, damit er euch zu seiner Zeit erhöhe!",
+      "referencia": "1 Petrus 5,6",
       "tema": "Vertrauen"
     },
     {
@@ -352,7 +352,7 @@
       "id": 59,
       "texto": "Bittet, so wird euch gegeben werden; suchet, so werdet ihr finden; klopfet an, so wird euch aufgetan werden!\n\nDenn wer da bittet, der empfängt, und wer da sucht, der findet, und wer anklopft, dem wird aufgetan werden.",
       "referencia": "Matthäus 7,7-8",
-      "tema": "Glaube"
+      "tema": "Gebet"
     },
     {
       "id": 60,
@@ -368,27 +368,27 @@
     },
     {
       "id": 62,
-      "texto": "Wirf auf den HERRN deine Bürde: er wird dich aufrecht erhalten; er läßt den Gerechten nicht ewig wanken.",
-      "referencia": "Psalm 55,23",
-      "tema": "Hoffnung"
+      "texto": "Und wir haben (mit Augen) gesehen und bezeugen es, daß der Vater den Sohn als Retter der Welt gesandt hat.\n\nWer nun bekennt, daß Jesus der Sohn Gottes ist, in dem wohnt Gott dauernd, und er wohnt dauernd in Gott.",
+      "referencia": "1 Johannes 4,14-15",
+      "tema": "Christus"
     },
     {
       "id": 63,
-      "texto": "Wirf auf den HERRN deine Bürde: er wird dich aufrecht erhalten; er läßt den Gerechten nicht ewig wanken.",
-      "referencia": "Psalm 55,23",
-      "tema": "Hoffnung"
+      "texto": "Sollte aber jemand von euch Mangel an Weisheit haben, so erbitte er sie sich von Gott, der allen ohne weiteres und ohne laute Vorwürfe gibt: dann wird sie ihm zuteil werden.",
+      "referencia": "Jakobus 1,5",
+      "tema": "Gebet"
     },
     {
       "id": 64,
-      "texto": "Wirf auf den HERRN deine Bürde: er wird dich aufrecht erhalten; er läßt den Gerechten nicht ewig wanken.",
-      "referencia": "Psalm 55,23",
-      "tema": "Hoffnung"
+      "texto": "Die Frucht des Geistes dagegen besteht in Liebe, Freude, Friede, Geduld, Freundlichkeit, Gütigkeit, Treue,\n\nSanftmut, Beständigkeit; gegen derartige (Geistesfrüchte) kann das Gesetz keine Anklage erheben.",
+      "referencia": "Galater 5,22-23",
+      "tema": "Handeln"
     },
     {
       "id": 65,
-      "texto": "Wirf auf den HERRN deine Bürde: er wird dich aufrecht erhalten; er läßt den Gerechten nicht ewig wanken.",
-      "referencia": "Psalm 55,23",
-      "tema": "Hoffnung"
+      "texto": "Seid allezeit fröhlich,\n\nbetet ohne Unterlaß,\n\nsagt in jeder Lage Dank, denn so will es Gott von euch in Christus Jesus.",
+      "referencia": "1 Thessalonicher 5,16-18",
+      "tema": "Dankbarkeit"
     },
     {
       "id": 66,
