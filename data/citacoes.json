@@ -266,9 +266,9 @@
     },
     {
       "id": 45,
-      "texto": "alles vermag ich in ihm, der mich stark macht.",
-      "referencia": "Philipper 3,16",
-      "tema": "Kraft"
+      "texto": "Seid fröhlich in der Hoffnung, geduldig im Leiden, beharrlich im Gebet!\n\nFür die Bedürfnisse der Heiligen beweist Anteilnahme; übt die Gastfreundschaft willig.\n\nSegnet, die euch verfolgen, segnet sie und flucht ihnen nicht!\n\nFreuet euch mit den Fröhlichen und weinet mit den Weinenden!",
+      "referencia": "Römer 12,12-15",
+      "tema": "Geduld"
     },
     {
       "id": 46,
@@ -299,6 +299,6 @@
       "texto": "alles vermag ich in ihm, der mich stark macht.",
       "referencia": "Philipper 3,16",
       "tema": "Kraft"
-    },
+    }
   ]
 }
