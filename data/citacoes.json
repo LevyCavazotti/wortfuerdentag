@@ -2,8 +2,8 @@
   "citacoes": [
     {
       "id": 1,
-      "texto": "Kommt her zu mir alle, die ihr niedergedrückt und belastet seid: ich will euch Ruhe schaffen!",
-      "referencia": "Matthäus 11,28",
+      "texto": "Kommt her zu mir alle, die ihr niedergedrückt und belastet seid: ich will euch Ruhe schaffen!\n\nNehmt mein Joch auf euch und lernt von mir; denn ich bin sanftmütig und von Herzen demütig: so werdet ihr Ruhe finden für eure Seelen;\n\ndenn mein Joch ist sanft, und meine Last ist leicht.",
+      "referencia": "Matthäus 11,28-30",
       "tema": "Ruhe"
     },
     {
@@ -404,6 +404,60 @@
     },
     {
       "id": 68,
+      "texto": "Ich will euch nicht verwaist zurücklassen: ich komme zu euch!",
+      "referencia": "Johannes 14,18",
+      "tema": "Hoffnung"
+    },
+    {
+      "id": 69,
+      "texto": "Gesegnet aber ist der Mann, der sich auf den HERRN verläßt und dessen Zuversicht der HERR ist!",
+      "referencia": "Jeremia 17,7",
+      "tema": "Vertrauen"
+    },
+    {
+      "id": 70,
+      "texto": "der HERR brüllt vom Zion her und läßt seine Stimme aus Jerusalem erschallen, so daß Himmel und Erde erbeben; aber für sein Volk ist der HERR eine Zuflucht und eine feste Burg für die Kinder Israel.\n\n»Da werdet ihr denn erkennen, daß ich, der HERR, euer Gott bin [...]«",
+      "referencia": "Joel 4,16-17",
+      "tema": "Hoffnung"
+    },
+    {
+      "id": 71,
+      "texto": "Kindlein, laßt uns nicht mit Worten und nicht mit der Zunge lieben, sondern mit der Tat und in Wahrheit!",
+      "referencia": "1 Johannes 3,18",
+      "tema": "Handeln"
+    },
+    {
+      "id": 72,
+      "texto": "Sehet, welch große Liebe uns der Vater dadurch erwiesen hat, daß wir Kinder Gottes heißen sollen, und wir sind es auch. Deshalb erkennt die Welt uns nicht, weil sie ihn nicht erkannt hat.",
+      "referencia": "1 Johannes 3,1",
+      "tema": "Liebe"
+    },
+    {
+      "id": 73,
+      "texto": "Gelobt sei der Gott und Vater unsers Herrn Jesus Christus, der nach seiner großen Barmherzigkeit uns wiedergeboren hat zu einer lebendigen Hoffnung durch die Auferstehung Jesu Christi von den Toten,\n\nzu einem unvergänglichen, unbefleckten und unverwelklichen Erbe, das im Himmel aufbewahrt ist für euch,\n\ndie ihr in der Kraft Gottes durch den Glauben für die Errettung bewahrt werdet, die (schon jetzt) bereitsteht, um in der letzten Zeit geoffenbart zu werden.",
+      "referencia": "1 Johannes 1,3-5",
+      "tema": "Freude"
+    },
+    {
+      "id": 74,
+      "texto": "Nun aber bleiben Glaube, Hoffnung, Liebe, diese drei; die größte unter diesen aber ist die Liebe.",
+      "referencia": "1 Korinther 13,13",
+      "tema": "Liebe"
+    },
+    {
+      "id": 75,
+      "texto": "Ich will euch nicht verwaist zurücklassen: ich komme zu euch!",
+      "referencia": "Johannes 14,18",
+      "tema": "Hoffnung"
+    },
+    {
+      "id": 76,
+      "texto": "Ich will euch nicht verwaist zurücklassen: ich komme zu euch!",
+      "referencia": "Johannes 14,18",
+      "tema": "Hoffnung"
+    },
+    {
+      "id": 77,
       "texto": "Ich will euch nicht verwaist zurücklassen: ich komme zu euch!",
       "referencia": "Johannes 14,18",
       "tema": "Hoffnung"
